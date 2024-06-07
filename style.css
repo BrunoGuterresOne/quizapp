@@ -20,6 +20,7 @@
     --white: #fff;
 
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
 
 }
 
@@ -125,29 +126,50 @@ main {
 }
 
 .assuntos button div {
-   width: 40px;
-   height: 40px;
-   padding: 5px; 
-   border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
 }
-.assuntos button img{
+
+.assuntos button img {
     width: 100%;
 }
 
-.botao_html {
+.botao_html div {
     background: var(--bg-html);
 
 }
 
-.botao_css{
+.botao_css div {
     background: var(--bg-css);
 }
 
-.botao_javascript{
+.botao_javascript div {
     background: var(--bg-javascript);
 }
 
-.botao_acessibilidade{
+.botao_acessibilidade div {
     background: var(--bg-acessibilidade);
+
+}
+
+@media(min-width: 1100px) {
+    body {
+        background: var(--bg-desktop) var(--bg-color);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header {
+        margin-block: 81px;
+
+    }
+    main{
+        display: flex;
+        max-width: 1160px;
+        margin-inline: auto;
+
+    }
 
 }
