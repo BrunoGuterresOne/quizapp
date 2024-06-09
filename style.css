@@ -179,22 +179,23 @@ main {
         margin-block: 81px;
 
     }
-    .tema{
+
+    .tema {
         gap: 16px;
     }
 
-    .tema img{
+    .tema img {
         width: 24px;
 
 
     }
 
-    .tema button{
+    .tema button {
         width: 48px;
         height: 28px;
     }
 
-    .tema button div{
+    .tema button div {
         width: 20px;
         height: 20px;
     }
@@ -226,7 +227,7 @@ main {
 
     .assuntos button {
         font-size: 28px;
-        ] padding: 20px;
+        padding: 20px;
         gap: 32px;
     }
 
