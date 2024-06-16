@@ -115,7 +115,7 @@ header {
 
 }
 
-main{
+main {
     padding: 32px 24px;
 
 }
@@ -131,7 +131,7 @@ main h2 strong {
     font-weight: 500;
 }
 
-.pontuacao{
+.pontuacao {
     background: var(--pontuacao-bg);
     padding: 32px;
     display: flex;
@@ -155,25 +155,25 @@ main h2 strong {
 }
 
 main button {
-        padding: 16px;
-        border-radius: 12px;
-        border: none;
-        background: var(--purple);
-        color: var(--white);
-        width: 100%;
-    
-        font-size: 18px;
-        font-weight: 500;
-        transition: background 0.3s;
-    
-    }
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    background: var(--purple);
+    color: var(--white);
+    width: 100%;
 
-    main button:hover{
-        background: var(--purple-hover);
-        cursor: pointer;
-    }
+    font-size: 18px;
+    font-weight: 500;
+    transition: background 0.3s;
 
-@media(min-width:1100px){
+}
+
+main button:hover {
+    background: var(--purple-hover);
+    cursor: pointer;
+}
+
+@media(min-width:1100px) {
     body {
         background: var(--bg-desktop) var(--bg-color);
         background-size: cover;
@@ -218,4 +218,23 @@ main button {
         width: 20px;
         height: 20px;
     }
+
+    main {
+        display: flex;
+        gap: 140px;
+        max-width: 1160px;
+        margin-inline: auto;
+
+
+    }
+
+    main h2,
+    main > div {
+        width: 100%;
+    }
+
+    main h2{
+        font-size: 64px;
+    }
+    
 }
