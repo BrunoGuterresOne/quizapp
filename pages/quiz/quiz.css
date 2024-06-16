@@ -226,7 +226,7 @@ main {
 
 }
 
-.alternativas label#incorreta {
+.alternativas label#errada {
     outline: 3px solid var(--red);
 
     & span {
