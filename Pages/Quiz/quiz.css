@@ -8,6 +8,8 @@
 
 :root {
     --bg-color: #f4f6fa;
+    --bg-span: #f4f6fa;
+    --color-span:#626cf7;
     --purple: #a729f5;
     --purple-hover:rgba(167, 41, 245, 0.6);
     --primary-text-color: #313e51;
@@ -29,6 +31,7 @@
 
 body.escuro {
     --bg-color: #313e51;
+   --color-span:#313e51;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-dark.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-dark.svg);
     --primary-text-color: #fff;
@@ -180,7 +183,7 @@ main {
 }
 
 .alternativas label:hover {
-    &span{
+    & span {
     background:var(--bg-acessibilidade) ;
     color: var(--purple);
 }
@@ -229,9 +232,9 @@ main {
     display: block;
     width: 40px;
     height: 40px;
-    background: var(--bg-color);
+    background: var(--bg-span);
     border-radius: 5px;
-    color: var(--secondery-text-color);
+    color: var(--color-span);
 
     display: flex;
     align-items: center;
